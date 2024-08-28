@@ -1,0 +1,7 @@
+assests/docs/
+
+*.tex
+*.log
+*.aux
+todo.md
+boilerplate.html
