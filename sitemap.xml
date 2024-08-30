@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://hstsethi.vercel.app/</loc>
+  </url>
+  <url>
+    <loc>https://hstsethi.vercel.app/index.html</loc>
+  </url>
+  <url>
+    <loc>https://hstsethi.vercel.app/blog-index.html</loc>
+  </url>
+  <url>
+    <loc>https://hstsethi.vercel.app/posts/programming/atleast-try-vim.html</loc>
+  </url>
+  <url>
+    <loc>https://hstsethi.vercel.app/posts/programming/best-programming-language-you-enjoy-most.html</loc>
+  </url>
+  <url>
+    <loc>https://hstsethi.vercel.app/about.html</loc>
+  </url>
+  <url>
+    <loc>https://hstsethi.vercel.app/posts/programming/reasons-i-am-not-gamedev.html</loc>
+  </url>
+  <url>
+    <loc>https://hstsethi.vercel.app/assets/hst-sethi-key.asc</loc>
+  </url>
+  <url>
+    <loc>https://hstsethi.vercel.app/assets/docs/harshit-sethi-resume.pdf</loc>
+  </url>
+</urlset>
