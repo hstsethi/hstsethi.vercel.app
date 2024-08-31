@@ -1,5 +1,8 @@
 assests/docs/
 
+*.md
+
+*.pdf # Hide resume for now.
 *.tex
 *.log
 *.aux
