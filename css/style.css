@@ -1,39 +1,45 @@
-body {
-        background-color: #1A1A1A;
-            color: #FFFFFF; 
-        }
+body{
+    background-color: #1A1A1A;
+    color: #FFFFFF;
+}
+a:link {
+    color: #87CEEB;
+}
+/* a:visited { */
+/*     color: #0000DD; */
+/* } */
+a:active {
+    color: #0000CC;
+}
+a:hover {
+    color: #0000BB;
+}
+nav {
+    background-color: #000080;
+    color: #FFFFFF;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li {
+    display: inline;
+    padding: 10px;
+    color: #FFFFFF;
 
-        nav {
-                background-color: #000080; 
-                    color: #FFFFFF; 
-                }
-
-                nav ul {
-                        list-style-type: none; 
-                            margin: 0;
-                                padding: 0;
-                                    overflow: hidden; 
-                                }
-
-                                nav ul li {
-                                        display: inline; 
-                                            padding: 10px; 
-                                        }
-
-                                        nav ul li a {
-                                                color: #FFFFFF; 
-                                                    text-decoration: none; 
-                                                }
-
-
-                                                    .potrait {
-                                                            align: center; 
-                                                        }
-
-                                                        .potrait img {
-                                                                margin: auto;
-                                                                    max-width: 30%;
-                                                                        max-height: auto;
-                                                                            display: block;
-                                                                        }
-
+}
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.potrait {
+    align: center;
+}
+.potrait img {
+    margin: auto;
+    max-width: 30%;
+    max-height: auto;
+    display: block;
+}

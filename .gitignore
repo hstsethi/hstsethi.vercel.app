@@ -1,5 +1,7 @@
 assets/docs/*
 
+*.pdf
+
 *.out
 *.md
 
