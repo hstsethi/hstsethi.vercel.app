@@ -1,11 +1,10 @@
 assets/docs/*
 
-*.pdf
+# *.pdf
 
 *.out
 *.md
 
-*.pdf # Hide resume for now.
 *.tex
 *.log
 *.aux
