@@ -9,4 +9,5 @@ assets/docs/*
 *.log
 *.aux
 todo.md
-boilerplate.db
+boilerplate.*
+
