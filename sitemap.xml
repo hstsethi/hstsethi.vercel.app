@@ -6,41 +6,35 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
   <loc>https://hstsethi.vercel.app/</loc>
-  
-  <priority>1.00</priority>
 </url>
 <url>
   <loc>https://hstsethi.vercel.app/blog-index</loc>
-  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://hstsethi.vercel.app/about</loc>
-  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://hstsethi.vercel.app/posts/programming/atleast-try-vim</loc>
-  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://hstsethi.vercel.app/posts/programming/best-programming-language-you-enjoy-most</loc>
-  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://hstsethi.vercel.app/posts/programming/reasons-i-am-not-gamedeveloper</loc>
-  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://hstsethi.vercel.app/posts/programming/awesome-j2me</loc>
-  <priority>0.64</priority>
 </url>
 <url>
     <loc>https://hstsethi.vercel.app/posts/lifestyle/why-i-dont-argue-on-internet-or-with-fools</loc>
 </url>
 <url>
   <loc>https://hstsethi.vercel.app/assets/docs/harshit-sethi-resume.pdf</loc>
-  <priority>0.64</priority>
   </url>
 <url>
-    <loc>https://hstsethi.vercel.app/posts/programming/why-i-hate-email-notifications.html</loc>
+    <loc>https://hstsethi.vercel.app/posts/programming/why-i-hate-email-notifications</loc>
+</url>
+<url>
+    <loc>https://hstsethi.vercel.app/posts/programming/completed-hacktoberfest-2024-loved-hated </loc>
 </url>
 </urlset>
