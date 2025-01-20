@@ -6,7 +6,9 @@
 randomAge=$(shuf -i 5-18 -n 1)
 
 # While XMLLint does not properly support HTML5, I am using it because it is fast, and has html output
-element=$(xmllint --html --htmlout  --xpath "//*[@id='age-$randomAge']" about.html 2>/dev/null)
+# --htmlout option seems unnecessary as lynx is still able to render perfectly.
+
+element=$(xmllint --html --xpath "//*[@id='age-$randomAge']" ../about.html 2>/dev/null)
 
 if [ -n "$element" ]; then
     echo $element | lynx -force-html -stdin    
