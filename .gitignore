@@ -1,0 +1,11 @@
+assets/docs/*
+# *.pdf
+*.out
+*.md
+*.tex
+*.log
+*.aux
+todo.md
+boilerplate.*
+boilerplate-metdata.yml
+boilerplate/

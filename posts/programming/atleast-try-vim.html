@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="author" content="HstSethi">
+<meta property="og:url" content="https://hstsethi.vercel.app/posts/programming/atleast-try-vim">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Why You Should At Least Try Vim
+Once">
+<meta property="og:description" content="Vim can be intimidating, hard
+at first. I will highlight some native features of Vim that other
+command line editors and IDEs lack.">
+<meta property="og:image" content=
+"https://res.cloudinary.com/dkgunni5p/image/upload/v1733896881/hs-logo_pqnld8.jpg">
+<title>Why You Should At Least Try Vim Once</title>
+</head>
+<body>
+<link rel="stylesheet" href="../../css/style.css">
+<link rel="canonical" href="https://hstsethi.vercel.app/">
+<link rel="apple-touch-icon" sizes="180x180" href=
+"../../apple-touch-icon.png">
+<link rel="icon" type="image/x-icon" href="../../favicon.ico">
+<nav class="navbar">
+<ul>
+<li><a href="../../index">Home</a></li>
+<li><a href="../../blog-index">Blog</a></li>
+<li><a href="../../about">About</a></li>
+</ul>
+</nav>
+<script type="application/ld+json">
+ {"@context":"https://schema.org","@type":"BlogPosting","datePublished":"2024-03-12","author":{"@type":"Person","email":"mailto:hstsethi@outlook.com","name":"HstSethi","alternateName":"Harshit Sethi","url":"https://hstsethi.vercel.app","sameAs":["https://github.com/hstsethi","https://dev.to/hstsethi","https://linkedin.com/in/hstsethi"]}}
+</script>
+<h1 id="why-you-should-at-least-try-vim-once">Why You Should At Least
+Try Vim Once</h1>
+<p>Vim, or NeoVim, is the text editor that I am sure almost every tech
+savvy person must have heard of. Though only few people use it on daily
+basis. I don't blame them. It can be intimidating, hard at first. That
+hard that some people don't even know how to exit Vim. Though don't
+worry, I am here to help.</p>
+<p>In this post, I will highlight some native features of Vim which I
+believe, that other command line editors and IDEs lack. Expect maybe
+Emacs which has most of them but with different keybindings and
+philosophy.</p>
+<p>This isn't a comprehensive tutorial. Vim has lots of useful features
+that it would be impossible to cover it in a single post. If you need a
+comprehensive tutorial then refer to <a
+href="https://vim.org/docs.php">official documentation</a> or run
+<code>vimtutor</code> command.</p>
+<h2 id="table-of-contents">Table of Contents</h2>
+<ul>
+<li><a href="#basics">Basics</a></li>
+<li><a href="#navigation">Navigation</a></li>
+<li><a href="#editing">Editing</a>
+<ul>
+<li><a href="#spell-checking">Spell checking</a></li>
+</ul></li>
+<li><a href="#multiple-windows">Multiple windows</a></li>
+<li><a href="#registers">Registers</a></li>
+<li><a href="#examples">Examples</a></li>
+</ul>
+<hr />
+<h3 id="basics">Basics</h3>
+<p>Vim keybindings are all case-sensitive, and follow this
+structure[int] + verb + object.</p>
+<p><code>i</code> Enter insert mode.</p>
+<p><code>A</code> Jump to one character ahead of the end of the line and
+enter insert mode.</p>
+<p><code>:!</code> Run external command.</p>
+<p><code>:r!</code> Run external command and paste output into the
+current cursor position.</p>
+<p><code>:h keyword</code> Browse documentation for the keyword.</p>
+<p><code>:q</code> Exit Vim.</p>
+<hr />
+<h3 id="navigation">Navigation</h3>
+<p><code>h/j/k/l</code> Move left, down, up, right.</p>
+<p><code>G</code> Move to end of the buffer.</p>
+<p><code>gg</code> Move to beginning of the buffer.</p>
+<p><code>b</code> Move to previous word.</p>
+<p><code>w</code> Move to the next word.</p>
+<p><code>mX</code> Set a mark at current position with x</p>
+<p><code>`X</code> Jump to position of mark X.</p>
+<p><code>tX</code> Jump forward till the next occurrence of X.</p>
+<p><code>TX</code> Jump backward till the previous occurrence of X.</p>
+<p><code>^</code> Jump to first non blank character in current line.</p>
+<p><code>$</code> Jump to last non-blank character in current line.</p>
+<p><code>zf</code> Create a fold.</p>
+<p><code>za</code> Unfold the selection.</p>
+<p><code>K</code> Pass the current word to <code>keywordprg</code> . By
+default, its <code>man</code> but can be configured to use any other
+program like <code>sdcv</code>, <code>pydoc</code>.</p>
+<hr />
+<h3 id="editing">Editing</h3>
+<p><code>~</code> Switch case of a single character.</p>
+<p><code>A</code> Jump to enter end of line and enter insert mode.</p>
+<p><code>c</code> Delete a single character and enter insert mode</p>
+<p><code>x</code> Delete a single character.</p>
+<p><code>C-a</code> Increase the number at current position by one.</p>
+<p><code>C-x</code> Decrease the number at current position by one.</p>
+<hr />
+<h4 id="spell-checking">Spell Checking</h4>
+<p><code>:set spell</code> Turn on spell check.</p>
+<p><code>z=</code> Show suggestions.</p>
+<hr />
+<h2 id="multiple-windows">Multiple Windows</h2>
+<p><code>C-w h/j/k/l</code> Navigate through windows, in left, down, up,
+right direction.</p>
+<p><code>C-w s</code> Split current window.</p>
+<p><code>C-w o</code> Close all other windows.</p>
+<p><code>:vsplit filename</code> Open the specified file in a vertical
+split.</p>
+<p><code>:split filename</code> Open the specified file in a horizontal
+split.</p>
+<hr />
+<h3 id="registers">Registers</h3>
+<p><code>qX</code> Record a macro at register X.</p>
+<p><code>@X</code> Play the macro X.</p>
+<p><code>"X</code> Paste the content of the register X.</p>
+<hr />
+<h2 id="examples">Examples</h2>
+<p><code>3jA</code> Move three lines downwards till the last non-empty
+character of that line and then enter insert mode.</p>
+<p><code>ci{</code> Delete a function body and enter insert mode.</p>
+<hr />
+<p>Too overwhelming? Remember, it doesn't have to be. You don't have to
+learn all of these keybindings at once. You can just learn basic things
+mentioned in <a href="#navigation">Navigation</a> section to get
+started. Just open any plain text file, or a one with source code in it,
+to get started. It wont take more than five minutes. If you like it,
+which I am sure you will, you can continue using it, otherwise you can
+just stop. At least you wont have to regret in future that you never
+tried it.</p>
+<p>I highly recommend starting with vanilla Vim, or Neovim, instead of
+pre-configured distributions like <a
+href="https://www.lunarvim.org">LunarVim</a>, <a
+href="https://www.lazyvim.org">LazyVim</a> as they might be too
+overwhelming and confusing. You can also checkout my <a href="https://github.com/hstsethi/no-frills-dotfiles"> No Frills dotfiles</a> for Nvim and other software.</p>
+<footer>
+<p>Share your thoughts on <a href=
+"https://github.com/hstsethi/hstsethi.vercel.app/issues/2">Github
+issue</a> or email me.</p>
+Written on: <time datetime="2024-03-12">2024-03-12</time>. Last Updated on:
+<time datetime="2025-01-02">2025-01-02 </time>.</footer>
+</body>
+</html>
