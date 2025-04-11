@@ -1,0 +1,47 @@
+body {
+  background-color:#1A1A1A;
+  color:#FFFFFF
+}
+a:link {
+  color:#87CEEB
+}
+a:active {
+  color:#0000CC
+}
+a:hover {
+  color:#0000BB
+}
+nav {
+  background-color:#000080;
+  color:#FFFFFF
+}
+nav ul {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  overflow:hidden
+}
+nav ul li {
+  display:inline;
+  padding:10px;
+  color:#FFFFFF
+}
+nav ul li a {
+  color:#FFFFFF;
+  text-decoration:none
+}
+.portrait {
+  align:center
+}
+.portrait img {
+  margin:auto;
+  max-width:30%;
+  max-height:auto;
+  display:block
+}
+img{
+  max-width: 90%vw;
+  height: auto;
+  width: 40%vw;
+  align: center;
+}

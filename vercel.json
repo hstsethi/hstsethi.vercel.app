@@ -1,0 +1,11 @@
+
+{
+"cleanUrls" : true,
+  "redirects": [
+        {
+            "source": "/blog",
+            "destination": "/blog-index",
+            "permanent": true
+        }
+  ]
+}
